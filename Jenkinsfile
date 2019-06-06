@@ -1,9 +1,5 @@
 pipeline {
-  agent {
-    docker {
-      image 'hellow-world'
-    }
-
+  agent { 
   }
   stages {
     stage('build') {
